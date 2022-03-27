@@ -44,7 +44,6 @@ int main(){
     two     = input- ((thousand*1000)+(fiveHundred*500)+(hundred*100)+(fifty*50)+(twenty*20)+(ten*10)+(five*5));
     two     = two/2;
     one     = input- ((thousand*1000)+(fiveHundred*500)+(hundred*100)+(fifty*50)+(twenty*20)+(ten*10)+(five*5)+(two*2));
-    one     = one/1;
     printf("%d note(s) of 1000.\n", thousand);
     printf("%d note(s) of 500.\n", fiveHundred);
     printf("%d note(s) of 100.\n", hundred);
