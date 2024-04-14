@@ -2,7 +2,8 @@
  * @file notDivisible17.c
  * 39. Write a C program to calculate the sum of all number not divisible by 17 between two given integer numbers. Go to the editor
 Test Data :
-Input the first integer: 50 Input the second integer: 99
+Input the first integer: 50 
+Input the second integer: 99
 Expected Output:
 Sum: 3521
  * @author Md. Alamin (alamin5g@yahoo.com)
