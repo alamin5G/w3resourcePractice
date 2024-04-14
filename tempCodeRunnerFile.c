@@ -1,1 +1,0 @@
-compare two strings without using string library functions
