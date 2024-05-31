@@ -27,8 +27,5 @@ public class OctalToDecimal {
         OctalToDecimal ob = new OctalToDecimal();
         int decimal1 = ob.octalToDecimal(octal);
         System.out.println("The number is " + decimal1);
-
-
-
     }
 }
