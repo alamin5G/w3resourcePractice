@@ -9,7 +9,9 @@ public class MoveZeorsToRight {
         int[] arr = {0, 3, 4, 0, 1, 2, 5, 0};
 
         System.out.println(Arrays.toString(arr));
-        moveZeorsToRight(arr);
+       // moveZeorsToRight(arr);
+       // System.out.println(Arrays.toString(arr));
+        moveToRight(arr);
         System.out.println(Arrays.toString(arr));
         
     }
@@ -25,6 +27,19 @@ public class MoveZeorsToRight {
             }else{
                 left++;
             }
+        }
+    }
+    //{0, 3, 4, 0, 1, 2, 5, 0};
+    public static void moveToRight(int[] arr){
+
+        int pos = 0;
+        int len = 1;
+        while (len != arr.length-1){
+            if(arr[pos] == 0 && arr[len] != 0){
+                swap(arr, pos, len);
+                pos++;
+            }
+            len++;
         }
     }
 
