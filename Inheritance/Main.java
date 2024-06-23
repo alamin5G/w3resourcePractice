@@ -26,6 +26,11 @@ public class Main {
         System.out.println(hr.getSalary());
         System.out.println(hr.getWorkHours());
 
+        AnimalInterface lion = new Lion();
+        lion.sound();
+        AnimalInterface tiger = new Tiger();
+        tiger.sound();
+
     }
 
 }
