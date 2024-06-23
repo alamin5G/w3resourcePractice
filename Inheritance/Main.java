@@ -7,6 +7,9 @@ public class Main {
         Animal cat = new Animal();
         cat.makeSound();
 
+        Vehicle car = new Car();
+        car.drive();
+
     }
 
 }
