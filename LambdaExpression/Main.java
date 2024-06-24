@@ -1,5 +1,6 @@
 package LambdaExpression;
 
+
 public class Main {
     public static void main(String[] args) {
         SumCalc sumCalc = Integer::sum;
@@ -18,7 +19,7 @@ public class Main {
         System.out.println("is it empty string? " + b);
 
 
-
+        System.out.println();
 
 
 
