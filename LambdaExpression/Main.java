@@ -1,6 +1,11 @@
 package LambdaExpression;
 
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
+import java.util.function.BiFunction;
+
 public class Main {
     public static void main(String[] args) {
         SumCalc sumCalc = Integer::sum;
@@ -20,6 +25,9 @@ public class Main {
 
 
         System.out.println();
+        List<String> list = Arrays.asList("Alamin", "Rakib", "Nuha", "Rabeya");
+
+
 
 
 
